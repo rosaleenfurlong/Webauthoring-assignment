@@ -1,0 +1,340 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Introduction to HTML by Rosaleen Walsh</title>
+</head>
+
+<body>
+	
+	<h1>Introduction to HTML by Rosaleen Walsh</h1>
+	<h2>Doctype</h2>
+<p>
+	All documents start with a &lt;!Doctype&gt; declaration. It is information to the browser about what document type to expect. To show that it is a HTML document we write &lt;!Doctype html&gt;.</p>
+	<h2>html</h2>
+<p>We use a &lt; html&gt;&lt;/html&gt; tag to surround all of our HTML coding. All coding apart from the doctype declaration goes between these tags.&nbsp;&nbsp;</p>
+	
+	<h2>head</h2>
+	<p>The &lt;head&gt;&lt;/head&gt; tag is placed between the &lt;html&gt; opening tag and the &lt;body&gt; opening tag. It contains metadata, i.e. data about data. It can contain items such as styles, title, description.</p>
+	
+<h2>body</h2>
+	<p>The &lt;body&gt;&lt;/body&gt; tag contains all of the contents of the webpage. It contains headings, paragraphs, images, links etc. It is what can be seen when a website is opened up.&nbsp; &nbsp;</p>
+    <h2>title</h2>
+<p>The &lt;title&gt;&lt;/title&gt; tag is contained within the head of the coding. The text that is written within the title is what comes up in a browser's title bar.&nbsp;&nbsp;</p>
+<p>Example:</p>
+    <p>&nbsp;&lt;title&gt;Introduction to HTML by Rosaleen Walsh&lt;/title&gt;</p>
+    <h2>p</h2>
+    <p>The &lt;p&gt;&lt;/p&gt; tag defines a block of text on a webpage. Each paragraph starts on a new line.&nbsp;</p>
+<p>&lt;p&gt;this is a paragraph&lt;/p&gt;&nbsp;</p>
+   
+<p>Here is an example of a paragraph:</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima nobis repellendus soluta quae, quam placeat, sequi quibusdam aspernatur. Atque, cumque.</p>
+
+<h2>span</h2>
+<p>&nbsp;&lt;p&gt;This is an &lt;span style="font-size:200%"&gt; example of span &lt;/span&gt;within a paragraph.&lt;/p&gt;&nbsp;</p>
+<p>This is an <span style="font-size:200%">example of span </span>within a paragraph.&nbsp;</p>
+<p>It is an inline tag that can be used to style a specific portion of text within a paragraph.&nbsp;&nbsp;</p>
+<h2>div</h2>
+<p>A &lt;div&gt;&lt;/div&gt; is used to separate a website into sections. It can then be styled inline or by using classes and ids.</p>
+<p>&lt;div style="font-size=150%&gt;This is my first div&lt;/div&gt;</p>
+<p>&lt;div style="font-size=70%&gt;This is my second div&lt;/div&gt;&nbsp;</p>
+<p>Here is how the two divs look when they are run:</p>
+<div style="font-size: 150%">
+	This is my first div
+	</div>
+	<div style="font-size: 70%">
+	This is my second div
+</div>
+<h2>Heading elements h1 to h6</h2>
+<p>HTML headings are used for titles on a webpage. They range in size, with headine 1 being the most important and heading 6 being the least important.&nbsp;</p>
+<h1>Heading1</h1>
+	<p>&lt;h1&gt;This is a h1 heading&lt;/h1&gt;</p>
+	<p>&nbsp;</p>
+	<h2>Heading2</h2>
+<p>&lt;h2&gt;This is a h2 heading&lt;/h2&gt;</p>
+	<h3>Heading 3</h3>
+	<p>&lt;h3&gt;This is a h3 heading&lt;/h3&gt;</p>
+	<p>Heading 4</p>
+<p>&lt;h4&gt;This is a h4 heading&lt;/h4&gt;</p>
+	<h5>This is a h5 heading</h5>
+<p>&lt;h5&gt;This is a h5 heading&lt;/h5&gt;</p>
+	<h6>Heading 6</h6>
+	<p>&lt;h6&gt;This is a h6 heading&lt;/h6&gt;</p>
+	<p>&nbsp;</p>
+	<h2>Formatting elements - strong, emphasis</h2>
+	<strong>Strong</strong>
+	<p>&lt;strong&gt;This is how you create a bold text&lt;/strong&gt;</p>
+	
+<p> <em>Emphasis</em> </p>
+	<p><em>&lt;em&gt;This is how you create italics&lt;/em&gt;&nbsp;
+	  </em></p>
+<h2>Tables and caption</h2>
+
+<p>The &lt;table&gt;&lt;/table&gt; tag is used to define a table.&nbsp;</p>
+<p>&lt;tr &gt;&lt;/tr&gt;defines a table row.&nbsp;</p>
+    <p>&lt;th &gt;&lt;/th&gt;defines a table heading.</p>
+    <p>&nbsp;&lt;td&gt;&lt;/td&gt;defines table data.</p>
+<p>&nbsp;The &lt;caption&gt;&lt;/caption&gt; tag is used to place a caption above a table and must be placed directly below the opening &lt;table&gt; tag.</p>
+<p>Here is an example of how the coding for a table would look:</p>
+<p>&lt;table&gt;</p>
+<p>&nbsp; &nbsp;&lt;caption&gt;This is my table&lt;/caption&gt;</p>
+<p>&nbsp; &nbsp; &nbsp;&lt;tr&gt; &lt;th&gt; Heading 1&lt;/th&gt; &lt;th&gt;Heading 2&lt;/th&gt;&lt;/tr&gt;</p>
+<p>&nbsp; &nbsp; &nbsp;&lt;tr&gt;&lt;td&gt;one&lt;/td&gt;&lt;td&gt;two&lt;/td&gt;&lt;/tr&gt;&nbsp;</p>
+<p>&nbsp; &nbsp; &nbsp;&nbsp;&lt;tr&gt;&lt;td&gt;three&lt;/td&gt;&lt;td&gt;four&lt;/td&gt;&lt;/tr&gt;</p>
+<p>&nbsp; &lt;/table&gt;&nbsp; &nbsp; &nbsp;&nbsp;</p>
+<p>This is how the table looks when the program is run:&nbsp;</p>
+	
+<table>
+<caption>This is my table</caption>	
+	<tr><th>Heading 1</th><th>Heading 2</th></tr>
+	<tr><th>one</th><th>two</th></tr>
+	<tr><th>three</th><th>four</th></tr>
+</table>
+	
+<h2>lists</h2>
+	<h3>Unordered lists</h3>
+
+	
+  <p>This is how you create an unordered list:</p>
+  <p>&lt;ul&gt;</p>
+  <p>			&lt;li&gt;List item&lt;/li&gt;</p>
+  <p>&lt;li&gt;List item&lt;/li&gt;</p>
+  <p>&lt;li&gt;list item&lt;/li&gt;</p>
+<p>&lt;/ul&gt;</p>
+  <p>&nbsp;Here is how it looks when run:</p>
+  
+<ul>
+		<li>List item</li>
+		<li>List item</li>
+  		<li>List item</li>
+</ul>
+	
+	<h3>Ordered lists</h3>
+	
+	
+<p>This is how you create an ordered list:</p>
+<p>&lt;ol&gt;</p>
+<p>&nbsp; &nbsp; &nbsp; &lt;li&gt;List item 1&lt;/li&gt;</p>
+<p>&nbsp; &nbsp; &nbsp;&lt;li&gt;List item 2&lt;/li&gt;</p>
+<p>&nbsp; &nbsp; &nbsp;&lt;li&gt;List item 3&lt;/li&gt;</p>
+<p>&lt;/ol&gt;&nbsp;</p>
+<p>Here is how it looks when run:&nbsp;</p>
+<ol>
+  <li>List item 1</li>
+  <li>List item 2</li>
+  <li>List item 3</li>
+		
+</ol>
+	
+<h3>Definition Lists</h3>
+<p>This is how you create a definition list:</p>
+<p>&lt;dl&gt;</p>
+<p>&nbsp; &nbsp;&lt;dt&gt;Sew&lt;/dt&gt;</p>
+<p>&nbsp; &nbsp;&lt;dd&gt;A needle pulling thread&lt;/dd&gt;</p>
+<p>&nbsp; &nbsp;&lt;dt&gt;Tea&lt;/dt&gt;</p>
+<p>&nbsp; &nbsp;&lt;dd&gt;A drink with jam and bread&lt;/dt&gt;</p>
+<p>&lt;/dl&gt;&nbsp; &nbsp;</p>
+<p>Here is how it looks when run:</p>
+	
+<dl>
+	<dt>Sew</dt>
+	<dd>A needle pulling thread</dd>
+	<dt>Tea</dt>
+	<dd>A drink with jam and bread</dd>
+	
+	
+</dl>	
+<h2>images and Alt</h2>
+<p>You can insert an image into your website using an &lt;img&gt; tag. there is no closing tag. Within the tag we include a source code "src", which is a pathway to the image in our images folder.</p>
+<p>Additionally, within the image tag, we use an "alt" attribute , which provides alternate text if the image doesn't appear. It can also be used by screen readers to enable visually impaired readers to use the page.</p>
+<p>Here is an example of coding for an image:</p>
+<p>&lt;img src="candles2_small.png" alt="decorative candle"&gt;</p>
+<p>&nbsp;This is how it will appear on the webpage:</p>
+	<img src="images/candles2_small.png" alt="decorative candle">
+	
+<h2>links</h2>
+<p>The &lt;a&gt;&lt;/a&gt; tag is used to define a link. A link is used to jump to another website by clicking on it. Text or images can be used as links.</p>
+<p>Example of coding for a link:</p>
+<p>&lt;a href="https://www.daft.ie"&gt;Daft.ie Ireland&lt;/a&gt;</p>
+    <p>This is how it appears on the webpage:&nbsp;</p>
+	
+	<a href="www.daft.ie">Daft.ie Ireland</a>
+    <h2>quote and blockquote</h2>
+<p>&nbsp;The quote tag, &lt;q&gt;&lt;/q&gt;, is used to insert short quotes into a section of text. The text will be surrounded by quotation marks when run. It is written as follows:</p>
+    <p>&nbsp;</p>
+<p>&lt;p&gt;As Humphrey Bogart once said,&nbsp; &lt;q&gt;Here's looking at you, kid.&lt;/q&gt; &lt;/p&gt;</p>
+    <p>It appears on the page as follows:</p>
+    <p>&nbsp;</p>
+<p>As Humphrey Bogart once said, <q>Here's looking at you, kid.</q></p>
+<p>&nbsp;</p>
+<p>The &lt;blockquote&gt;&lt;/blockquote&gt; tag is used for longer quotes and there is generally a citation included within the tag. It appears indented on the webpage. Here is how it is written:</p>
+<p>&nbsp;</p>
+<p>&lt;p&gt;Chief Brody's famous quote from the Jaws movie:&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</p>
+<p>&lt;blockquote cite="https://www.rottentomatoes.com/m/jaws/quotes/"&gt;</p>
+<p>You're gonna need a bigger boat!&lt;/blockquote&gt; &lt;/p&gt;</p>
+<p>&nbsp;</p>
+<p>This is how it looks on the webpage:</p>
+<p>&nbsp;</p>
+<p>Chief Brody's famous quote from the Jaws movie:         
+
+<blockquote cite="https://www.rottentomatoes.com/m/jaws/quotes/">
+
+You're gonna need a bigger boat!</blockquote> 
+</p>
+	
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<blockquote></blockquote>
+
+<h2>abbreviations</h2>
+<p>The &lt;abbr&gt;&lt;/abbr&gt; tag defines an abbreviation within a text. It is accompanied by a title attribute where the full version is written. The code is written as follows:&nbsp;&nbsp;</p>
+<p>&lt;p&gt;</p>
+<p>&lt;abbr title="Radio Teilifis Eireann"&gt;R.T.E.&lt;/abbr&gt; is Ireland's national broadcasting service.</p>
+<p>&lt;/p&gt;&nbsp;</p>
+<p>It appears as follows:&nbsp;</p>
+<p>
+  <abbr title="Radio teilifis Eireann">R.T.E.</abbr> is Ireland's national broadcasting service.
+</p>
+<p>&nbsp;The title attribute allows us to see the full version when we hover over the abbreviation.</p>
+<h2>meta</h2>
+<p>The &lt;meta&gt; tag is used to describe the metadata in a document. Metadata is defined as data about data. The tag is usually accompanied by "name" and "content" attributes. Here are some examples:</p>
+<p>&nbsp;&lt;meta name="author" content="Rosaleen Walsh"&gt;</p>
+<p>This meta gives the author's name.</p>
+<p>&lt;meta name="description" content="Level 5 Web Authoring Assignment&gt;</p>
+<p>This meta gives a brief description of the contents of the website.</p>
+<p>&lt;meta name="keywords" content="HTML, Assignment, tags, definitions"&gt;</p>
+<p>This meta provides keywords for the webpage.</p>
+<p>&lt;meta http-equiv="refresh" content="30"&gt;</p>
+<p>This meta causes the webpage to refresh every 30 seconds.</p>
+<p>&nbsp;Metadata is not seen on the webpage but provides information for browsers and search engines.</p>
+<p>&nbsp;</p>
+<h2>forms</h2>
+<p>The &lt;form&gt;&lt;/form&gt; tag is used to create forms that website users can fill out online. Different types of inputs can be used, such as text, email, checkboxes and groups. This is an example of the coding for a form:</p>
+<p>&lt;form&gt;</p>
+<p>&nbsp;&lt;fieldset&gt;&lt;legend&gt;Full name&lt;/legend&gt;</p>
+<p>&nbsp;&lt;input type="text" placeholder="Write your full name here" size="100" maxlength="100"&gt;</p>
+<p>&nbsp;&lt;/fieldset&gt;&nbsp;</p>
+<p>&nbsp;&lt;fieldset&gt;</p>
+<p>&lt;legend&gt;Email&lt;/legend&gt;</p>
+<p>&nbsp;&lt;input type="email" required="required" placeholder="Write your email here" &gt;&nbsp;</p>
+<p>&lt;/fieldset&gt;</p>
+<p>&nbsp;&lt;fieldset&gt;</p>
+<p>&lt;legend&gt;What's your favourite colour&lt;/legend&gt;</p>
+<p>&nbsp;&lt;p&gt;</p>
+<p>&nbsp;&lt;label&gt; &lt;input type="radio" name="RadioGroup1" value="radio" id="RadioGroup1_0"&gt; Red&lt;/label&gt; &lt;br&gt;</p>
+<p>&nbsp;&lt;label&gt; &lt;input type="radio" name="RadioGroup1" value="radio" id="RadioGroup1_1"&gt; Yellow&lt;/label&gt; &lt;br&gt;</p>
+<p>&nbsp;&lt;/p&gt;</p>
+<p>&nbsp;&lt;/fieldset&gt;</p>
+<p>&nbsp;</p>
+&lt;fieldset&gt;&lt;legend&gt;What pets do you have? pick all that apply&lt;/legend&gt;<br>
+&lt;p&gt;<br>
+&lt;label&gt;<br>
+&lt;input type=&quot;checkbox&quot; name=&quot;CheckboxGroup1&quot; value=&quot;checkbox&quot; id=&quot;CheckboxGroup1_0&quot;&gt;<br>
+Dog&lt;/label&gt;<br>
+&lt;br&gt;<br>
+&lt;label&gt;<br>
+&lt;input type=&quot;checkbox&quot; name=&quot;CheckboxGroup1&quot; value=&quot;checkbox&quot; id=&quot;CheckboxGroup1_1&quot;&gt;<br>
+Cat&lt;/label&gt;<br>
+&lt;br&gt;<br>
+&lt;label&gt;<br>
+&lt;input type=&quot;checkbox&quot; name=&quot;CheckboxGroup1&quot; value=&quot;checkbox&quot; id=&quot;CheckboxGroup1_2&quot;&gt;<br>
+Goldfish&lt;/label&gt;<br>
+&lt;br&gt;<br>
+&lt;/p&gt;<br>
+&lt;/fieldset&gt;<br>
+&lt;/form&gt;
+	<p>
+	This is how the form looks when the program is run:
+	</p>
+<form>
+  <fieldset><legend>Full name</legend>
+	<input type="text" placeholder="Write your full name here"  size="100" maxlength="100">
+  </fieldset>
+	
+  <fieldset><legend>Email</legend>
+	<input type="email" required="required" placeholder="Write your email here" >
+  </fieldset>
+	
+  <fieldset><legend>What's your favourite colour</legend>
+	<p>
+		  <label>
+		    <input type="radio" name="RadioGroup1" value="radio" id="RadioGroup1_0">
+		    Red</label>
+		  <br>
+		  <label>
+		    <input type="radio" name="RadioGroup1" value="radio" id="RadioGroup1_1">
+		    Yellow</label>
+		  <br>
+		  
+    </p>
+  </fieldset>
+	
+  <fieldset><legend>What pets do you have? pick all that apply</legend>
+    <p>
+	    <label>
+	      <input type="checkbox" name="CheckboxGroup1" value="checkbox" id="CheckboxGroup1_0">
+	      Dog</label>
+	    <br>
+	    <label>
+	      <input type="checkbox" name="CheckboxGroup1" value="checkbox" id="CheckboxGroup1_1">
+	      Cat</label>
+	    <br>
+	    <label>
+	      <input type="checkbox" name="CheckboxGroup1" value="checkbox" id="CheckboxGroup1_2">
+	      Goldfish</label>
+	    <br>
+    </p>
+  </fieldset>
+</form>
+<p>&nbsp;</p>
+<h2>Special symbols and character entities:</h2>
+<p>There are some symbols that can't be found on a keyboard, for example the trademark symbol, some maths symbols, or the copyright symbol. Other symbols, such as the Euro character, can be found on the keyboard but older browsers may not be able to read them. In these cases, we can use the entity name or hexadecimal number for the symbol. This ensures that the symbol is always displayed correctly. Here are some examples:</p>
+	<table>
+		
+	<tr> <th>Symbol</th> <th>Hexadecimal Number</th> <th>Entity name</th> <th>Coding Example</th> <th>How it appears on the webpage</th> </tr>
+	<tr> <td>Trademark:</td> <td>&amp;#8482;</td> 
+	<td>&amp;trade;</td> 
+	<td>&lt;p&gt;Apple &amp;#8482;&lt;/p&gt;</td> 
+	<td><p>Apple &#8482;</p></td> </tr>
+	<tr> <td>Copyright:</td> <td>&amp;#169;</td> 
+	<td>&amp;copy;</td> 
+	<td>&lt;p&gt;&amp;copy; Rosaleen Walsh&lt;/p&gt;&nbsp;</td> 
+	<td><p>&copy; Rosaleen Walsh</p> </td> </tr>	
+	<tr> <td>&nbsp;Ampersand</td> 
+	<td>&nbsp;&amp;#38;</td> 
+	<td>&nbsp;&amp;amp;</td> 
+	<td>&nbsp;&lt;p&gt;Johnson &amp;#38; johnson&lt;/p&gt;</td> 
+	<td> <p>Johnson &#38; johnson</p></td> 
+	</tr>	
+	<tr> <td>Euro:</td> <td>&amp;#8364;</td> 
+	<td>&amp;euro;</td> 
+	<td>&lt;p&gt;The computer cost &amp;euro;500&lt;/p&gt;</td> 
+	<td><p>The computer cost &euro;500</p></td> </tr>	
+	<tr> <td>&nbsp;Non-breaking space:</td> <td>&nbsp;&amp;#160;</td> 
+	<td>&nbsp;&amp;nbsp;</td> 
+	<td>&nbsp;&lt;p&gt;30&amp;#160;km/hr&lt;/p&gt;</td> 
+	<td><p>30&#160;km/hr</p></td> </tr>
+	<tr>
+		<td>Greater than:</td>
+		<td>&amp;#62;</td>
+		<td>&amp;gt;</td>
+		<td>&lt;p&gt;10&amp;gt;5&lt;/p&gt;</td>
+	  <td><p>10 &gt;5</p></td>
+		
+	  </tr>
+		
+	<tr>
+		<td>&nbsp;Less than:</td>
+	  <td>&amp;#60;</td>
+		<td>&amp;lt;&nbsp;</td>
+		<td>&lt;p&gt;6&amp;#60;60&lt;/p&gt;</td>
+		<td><p>6&#60;60</p></td>
+		
+	  </tr>
+	</table>
+
+<p>&nbsp;</p>
+	<a href="css_assignment.html">CSS</a>
+<p>&nbsp;</p>
+</body>
+</html>

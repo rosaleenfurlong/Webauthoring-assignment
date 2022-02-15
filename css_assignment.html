@@ -1,0 +1,209 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>CSS - Cascading Style Sheets</title>
+<style type="text/css">
+	
+	header {
+    text-align: center;
+    border: medium solid #000000;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    height: 90px;
+    background-color: #B2AAB7;
+    padding-top: 110px;
+   
+	}
+	
+	nav {
+    background-color: #D4CDCD;
+    height: 120px;
+    border: medium inset #000000;
+	}
+	
+	h3 {
+    font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+    font-style: italic;
+    font-variant: normal;
+    text-decoration: none;
+    line-height: normal;
+    font-weight: lighter;
+	}
+	
+	.stand-out-style {
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+    background-color:#403C3C;
+    color: #B7B1B1;
+    margin-left: 30px;
+    padding: 5px;
+    font-weight: lighter;
+    font-style: italic;
+    
+	}
+	
+	a:link {
+    text-decoration: none;
+    border: thin solid;
+    border-color: #DDDDEB;
+    width: 150px;
+    padding-right: 3px;
+    padding-left: 3px;
+    text-align: center;
+    background-color: #B27CBF;
+    color: #0D0E10;
+	}
+	a:hover {
+    text-decoration: underline;
+    background-color: #D2D1ED;		
+	}
+	
+	a:visited {
+    background-color: #5C2B71;
+    color: #BBAAC4;
+	}
+	
+	a:active {
+    background-color: #CAAFCD;
+    color: #9407AD;
+	}
+	
+	li {
+    list-style-image: url("images/list-image.png");
+    list-style-position: outside;
+    background-color: #AF9EB1;
+	}
+	
+	body {
+		background-color: #d9d9d9;
+		color: #343434;
+	}
+	
+	main {
+    background-color: #F3E9E9;
+    width: 59.15%;
+    margin-left: auto;
+		margin-right: auto;
+    border: thin solid #525050;
+    padding-top: 2px;
+    padding-right: 2px;
+    padding-bottom: 0px;
+    padding-left: 2px;
+   float: left;
+		
+	}
+	
+	aside {
+    background-color: #D4CDCD;
+    border: medium inset #000000;
+    float: right;
+		width: 40%;
+		
+	}
+	
+	section {
+    margin-left: 100px;
+    margin-top: 100px;
+    margin-right: 100px;
+    margin-bottom: 100px;
+    background-color: #AFABB4;
+    border: medium dotted #8949AF;
+	}
+	
+	footer {
+    
+    height: 100px;
+    border: medium solid #3C3A3A;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    clear: both;
+    background-image: url("images/footer-image.jpg");
+    background-size: cover;
+    background-attachment: scroll;
+	}
+	
+	#wrapper {
+    margin: auto;
+    max-width: 1500px;
+    border-radius: 25px;
+    border: medium inset #FFFFFF;	
+	}
+	
+	h2 {
+		
+		font-family:
+    font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: bold;
+	}
+	
+	h1 {
+    font-style: normal;
+    font-variant: normal;
+    font-weight: bolder;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;    
+	}
+	
+</style>
+</head>
+
+<body>
+
+<div id="wrapper">
+	
+<header><h1>CSS - Cascading Style Sheets</h1>
+</header>
+<nav>
+	
+	<h2>The Navigation</h2>
+	
+	<a href="#">Link1</a>
+	<a href="#">Link2</a>
+	<a href="#">Link3</a>
+	<a href="index.html">Index</a>
+	
+	
+	</nav>	
+	 
+<main>
+	<h2>The Main</h2>
+<section>
+	<h3>This is my h3 tag style</h3>
+	</section>	
+<section>
+	<p class="stand-out-style">Stand-out style applied in this paragraph. Stand-out style applied here. Stand-out style applied here.</p>
+	</section>	
+	
+<section>
+	<ul>
+		<li>List Item 1</li>
+		<li>List Item 2</li>
+		<li>List Item 3</li>
+		<li>List Item 4</li>
+	
+	</ul>
+	
+	</section>	
+	
+	</main>
+	<aside>
+		
+	  <h2>The Aside</h2>
+
+	<p>
+	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident ipsam deserunt nobis nulla incidunt aliquid? Ipsa, impedit, provident. Nesciunt iste enim aut facilis temporibus adipisci, reiciendis illum atque ipsum, mollitia.	
+		</p>
+	<p>
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente cumque quo fuga nisi error, sed doloremque, doloribus ut corporis obcaecati, accusantium ad porro, commodi quisquam minima in esse. Cum, aliquam.
+		</p>	
+	
+	</aside>
+	<footer>
+	
+		<h2>The Footer &#169; Rosaleen Walsh 2022</h2>
+	
+	</footer>
+	</div>
+</body>
+</html>
